@@ -1,0 +1,57 @@
+@font-face {
+    font-family: geo;
+    src: url("../../fonts/geomanist-regular-webfont.ttf");
+}
+$h1color: purple;
+$widthlogo: 45%;
+$widthbutton:15%;
+$heightbutton:5%;
+
+body {
+    background-image: url("../../background.png");
+    background-size: cover;
+}
+
+.pres .logo {
+
+  padding-top: 8%;
+    width: $widthlogo;
+
+}
+.title{
+  color: $h1color;
+    font-family: geo;
+      display: inline-flex;
+
+}
+.link{
+  padding-top: 5%;
+  justify-content: space-between;
+  color: white;
+
+}
+.para{
+  font-family: geo;
+  color: white;
+  width: $widthlogo;
+}
+h1{
+    font:{
+        color: $h1color;
+        font-family: geo;
+    }
+}
+
+// p {
+//     span {
+//         color: $turquoise;
+//     }
+// }
+
+button {
+  border: none;
+  color: white;
+    background-color: $h1color;
+    width:$widthbutton;
+    height: $heightbutton;
+}

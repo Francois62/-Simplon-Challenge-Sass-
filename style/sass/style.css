@@ -1,0 +1,38 @@
+@font-face {
+  font-family: geo;
+  src: url("../../fonts/geomanist-regular-webfont.ttf"); }
+body {
+  background-image: url("../../background.png");
+  background-size: cover; }
+
+.pres .logo {
+  padding-top: 8%;
+  width: 45%; }
+
+.title {
+  color: purple;
+  font-family: geo;
+  display: inline-flex; }
+
+.link {
+  padding-top: 5%;
+  justify-content: space-between;
+  color: white; }
+
+.para {
+  font-family: geo;
+  color: white;
+  width: 45%; }
+
+h1 {
+  font-color: purple;
+  font-font-family: geo; }
+
+button {
+  border: none;
+  color: white;
+  background-color: purple;
+  width: 15%;
+  height: 5%; }
+
+/*# sourceMappingURL=style.css.map */
